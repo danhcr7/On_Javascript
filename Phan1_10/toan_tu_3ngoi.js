@@ -13,3 +13,18 @@ let isLoggedIn = true;
 let buttonText;
 (isLoggedIn) ? buttonText = "Logout" : buttonText = "Login";
 console.log(buttonText);
+
+/*
+Toán tử 3 ngôi có thể lồng nhau (nhưng đừng lồng quá nhiều sẽ bị rối mắt).
+Yêu cầu: Cho biến age = 20.
+
+Nếu age < 13: Giá vé là "50k".
+
+Nếu age >= 13 và age < 18: Giá vé là "70k".
+
+Nếu age >= 18: Giá vé là "100k".
+*/
+let age = 20;
+let giaVe = 0;
+(age>=18) ? (giaVe = 100000) : ((age>=13) ? (giaVe = 70000) : (giaVe = 50000));
+console.log(`Gía vé cho khách ${age} (tuổi) là: ${giaVe} (đồng)`);
