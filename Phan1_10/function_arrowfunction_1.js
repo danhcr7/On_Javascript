@@ -67,5 +67,16 @@ Khi số lượng đổi → gọi lại hàm này
 */
 const money = (price, quantity) => price*quantity;
 console.log(money(20000, 5));
-
+/*
+Bài 7️⃣ – Thông báo đăng nhập
+Viết arrow function nhận vào:
+– isLogin (true / false)
+👉 Trả về:
+– "Xin chào người dùng"
+– hoặc "Vui lòng đăng nhập"
+📌 Gợi ý:
+– Dùng toán tử 3 ngôi
+*/
+const messageLogin = (isLogin) => (isLogin) ? "Xin chào người dùng" : "Vui lòng đăng nhập";
+console.log(messageLogin(true));
 
