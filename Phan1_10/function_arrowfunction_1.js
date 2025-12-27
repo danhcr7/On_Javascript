@@ -95,3 +95,7 @@ console.log(messageUserPass("", ""));
 console.log(messageUserPass("", "123"));
 console.log(messageUserPass("admin", ""));
 console.log(messageUserPass("admin", "123"));
+//
+const xinChao = name => (name.length !== 0) ? `Xin chào ${name}` : `Xin chào bạn`;
+console.log(xinChao(""));
+console.log(xinChao("Danh"));
