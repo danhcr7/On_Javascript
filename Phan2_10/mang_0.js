@@ -6,6 +6,7 @@
 - Truy cập phần tử của mảng thông qua index: arr[index];
 - Lấy độ dài mảng: arr.length;
 - Phần tử đầu tiên: arr[0]; phần tử cuối cùng: arr[arr.length-1];
+- Thay đổi value của 1 phần tử tại vị trí index: arr[index] = new_value;
 */
 let a = [1, 2, 3];
 let b = [4.2, 5, 6.4]
@@ -14,3 +15,6 @@ console.log(a, b, c);
 console.log(b[1]);
 console.log(`Độ dài của các mảng là a: ${a.length}; b: ${b.length}, c: ${c.length}`);
 console.log(`Mảng c có phần tử đầu tiên là: ${c[0]}; phần tử cuối cùng là: ${c[c.length-1]}`);
+// Thay đổi phần tử 3 trong mảng a thành 1 object {a: 1, b: 2, c: 3}
+a[2] = {a: 1, b: 2, c: 3};
+console.log(a);
