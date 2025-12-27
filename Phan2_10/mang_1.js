@@ -10,3 +10,6 @@ console.log(arr);
 // xóa phần tử "hello" cuối mảng:
 arr.pop();
 console.log(arr);
+// xoáp hần tử [ 4, { '1': 'Nam', '2': 'Danh' } ] ở đầu mảng:
+arr.shift();
+console.log(arr);
