@@ -11,4 +11,4 @@ let obj_1 = {
 };
 
 let obj_2 = {"sex": "Male", ...obj_1};
-console.log(obj2);
+console.log(obj_2);
