@@ -56,3 +56,16 @@ Viết function nhận vào:
 */
 const giaSale = (price, discount) => price * (1-discount/100);
 console.log(giaSale(1000, 20));
+/*
+Bài 6️⃣ – Tính tổng tiền giỏ hàng (mini)
+Viết arrow function nhận vào:
+– price
+– quantity
+👉 Trả về price * quantity
+📌 Tình huống:
+Khi số lượng đổi → gọi lại hàm này
+*/
+const money = (price, quantity) => price*quantity;
+console.log(money(20000, 5));
+
+
