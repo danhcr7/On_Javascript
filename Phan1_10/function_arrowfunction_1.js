@@ -43,3 +43,16 @@ let s2 = "Mai Thành Danh";
 const kiemTraChuoi = str => (str.length > 0) ? true : false;
 console.log(kiemTraChuoi(s1));
 console.log(kiemTraChuoi(s2));
+/*
+Bài 5️⃣ – Tính giá sau giảm
+Viết function nhận vào:
+– price
+– discount (phần trăm)
+👉 Trả về giá sau khi giảm
+📌 Ví dụ:
+– price = 1000
+– discount = 10
+→ kết quả = 900
+*/
+const giaSale = (price, discount) => price * (discount/100);
+console.log(giaSale(1000, 10));
