@@ -79,4 +79,15 @@ Viết arrow function nhận vào:
 */
 const messageLogin = (isLogin) => (isLogin) ? "Xin chào người dùng" : "Vui lòng đăng nhập";
 console.log(messageLogin(true));
+console.log(messageLogin(false));
+/*
+Viết function nhận vào:
+– username
+– password
+👉 Trả về:
+– "Hợp lệ" nếu cả hai không rỗng
+– "Không hợp lệ" nếu thiếu 1 trong 2
+📌 Gợi ý:
+– Dùng toán tử &&
+*/
 
