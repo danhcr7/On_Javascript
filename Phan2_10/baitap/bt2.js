@@ -4,3 +4,4 @@ const user = {
   city: "HCM"
 };
 // In ta tên + tuổi:
+console.log(`Tên: ${user.name}; Tuổi: ${user.age}`);
