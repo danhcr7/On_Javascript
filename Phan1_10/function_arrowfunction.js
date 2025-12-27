@@ -27,5 +27,7 @@ Kết quả: Nếu truyền vào "Danh", hàm trả về chuỗi "Chào bạn, D
 
 Gợi ý: Sử dụng Template String (dấu backtick `) để nối chuỗi cho đẹp.
 */
-const getHelloName = (name) => console.log(`Chào bạn, ${name}! Chúc một ngày tốt lành.`);
+const getHelloName = (name) =>
+  console.log(`Chào bạn, ${name}! Chúc một ngày tốt lành.`);
 getHelloName(`Danh`);
+
