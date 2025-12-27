@@ -90,7 +90,7 @@ Viết function nhận vào:
 📌 Gợi ý:
 – Dùng toán tử &&
 */
-const messageUserPass = (username, password) => (username.length!==0 && password.length!==0) ? "Hợp lệ" : "Không hợp lệ";
+const messageUserPass = (username, password) => (username.length !== 0 && password.length !== 0) ? "Hợp lệ" : "Không hợp lệ";
 console.log(messageUserPass("", ""));
 console.log(messageUserPass("", "123"));
 console.log(messageUserPass("admin", ""));
