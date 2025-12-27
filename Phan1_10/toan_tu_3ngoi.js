@@ -11,5 +11,5 @@ Nhiệm vụ: Tạo biến buttonText. Nếu isLoggedIn là true thì buttonText
 */
 let isLoggedIn = true;
 let buttonText;
-(isLoggedIn) ? buttonText = "Logout" ? bttonText = "Login";
+(isLoggedIn) ? buttonText = "Logout" ? buttonTextttonText = "Login";
 console.log(buttonText);
