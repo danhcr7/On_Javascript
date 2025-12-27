@@ -13,4 +13,5 @@ console.log(arr);
 // xoáp hần tử [ 4, { '1': 'Nam', '2': 'Danh' } ] ở đầu mảng:
 arr.shift();
 console.log(arr);
+// cắt: arr.slice(start, end) ---> cắt từ index start đến index end - 1
 console.log(arr.slice(0, 3));
