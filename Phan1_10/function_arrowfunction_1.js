@@ -95,7 +95,14 @@ console.log(messageUserPass("", ""));
 console.log(messageUserPass("", "123"));
 console.log(messageUserPass("admin", ""));
 console.log(messageUserPass("admin", "123"));
-//
+/*
+Viết arrow function nhận vào:
+– name
+👉 Nếu có name:
+– Trả về "Xin chào <name>"
+👉 Nếu không có:
+– Trả về "Xin chào bạn"
+*/
 const xinChao = name => (name.length !== 0) ? `Xin chào ${name}` : `Xin chào bạn`;
 console.log(xinChao(""));
 console.log(xinChao("Danh"));
