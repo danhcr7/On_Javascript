@@ -21,3 +21,4 @@ Viết arrow function nhận vào 1 số
 */
 const kiemTraChanLe = n => (n%2 === 0) ? "Chẵn" : "Lẻ";
 console.log(kiemTraChanLe(5));
+console.log(kiemTraChanLe(8));
