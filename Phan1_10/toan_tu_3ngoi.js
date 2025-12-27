@@ -8,5 +8,4 @@ Giả sử Danh làm chức năng ẩn/hiện nút Logout trên giao diện.
 Yêu cầu: Cho biến isLoggedIn = true.
 
 Nhiệm vụ: Tạo biến buttonText. Nếu isLoggedIn là true thì buttonText là "Logout", ngược lại là "Login".
-
 */
