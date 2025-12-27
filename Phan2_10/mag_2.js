@@ -9,5 +9,6 @@ let obj_1 = {
     "old": 30,
     "salary": 3000000
 };
-let obj_2 = {...obj_1};
-console.log(obj_2);
+
+let obj_2 = {"sex": "Male", ...obj_1};
+console.log(obj2);
