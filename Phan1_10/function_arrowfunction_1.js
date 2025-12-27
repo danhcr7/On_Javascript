@@ -30,3 +30,16 @@ Viết arrow function nhận vào age
 */
 const kiemTraTuoi = age => (age >= 18) ? "Đủ tuổi" : "Chưa đủ tuổi";
 console.log(kiemTraTuoi(17));
+/*
+Bài 4️⃣ – Validate input
+Viết arrow function kiểm tra 1 chuỗi:
+– Nếu chuỗi rỗng → false
+– Có ký tự → true
+📌 Tình huống thực tế:
+Người dùng chưa nhập gì thì không cho submit
+*/
+let s1 = "";
+let s2 = "Mai Thành Danh";
+const kiemTraChuoi = str => (str.length > 0) ? true : false;
+console.log(kiemTraChuoi(s1));
+console.log(kiemTraChuoi(s2));
