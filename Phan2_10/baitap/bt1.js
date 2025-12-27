@@ -8,4 +8,4 @@ const arr = [10, 20, 30, 40];
 – Độ dài mảng
 */
 const arr = [10, 20, 30, 40];
-console.log(`Phần  tử đầu: ${arr[0]}; Phần tử cuối: ${arr[arr.length-1]}; Độ dài mảng: ${arr.length}`);
+console.log(`Phần tử đầu: ${arr[0]}; Phần tử cuối: ${arr[arr.length-1]}; Độ dài mảng: ${arr.length}`);
