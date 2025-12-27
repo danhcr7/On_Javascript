@@ -91,3 +91,7 @@ Viết function nhận vào:
 – Dùng toán tử &&
 */
 const messageUserPass = (username, password) => (username.length!==0 && password.length!==0) ? "Hợp lệ" : "Không hợp lệ";
+console.log(messageUserPass("", ""));
+console.log(messageUserPass("", "123"));
+console.log(messageUserPass("admin", ""));
+console.log(messageUserPass("admin", "123"));
