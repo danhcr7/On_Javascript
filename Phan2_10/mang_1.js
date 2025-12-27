@@ -13,3 +13,4 @@ console.log(arr);
 // xoáp hần tử [ 4, { '1': 'Nam', '2': 'Danh' } ] ở đầu mảng:
 arr.shift();
 console.log(arr);
+console.log(arr.slice(0, 3));
