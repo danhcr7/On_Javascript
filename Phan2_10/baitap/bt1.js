@@ -9,3 +9,6 @@ const arr = [10, 20, 30, 40];
 */
 const arr = [10, 20, 30, 40];
 console.log(`Phần tử đầu: ${arr[0]}; Phần tử cuối: ${arr[arr.length-1]}; Độ dài mảng: ${arr.length}`);
+// BT2: dùng map tạo mảng mới mà mỗi phần tử nhân 2
+const arr_new = arr.map(item => item * 2);
+console.log(arr_new);
