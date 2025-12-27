@@ -10,3 +10,4 @@ function tinhtong_1(a, b) {
 }
 const tinhtong_2 = (a, b) => a + b;
 console.log(`Tổng 2 số ${a} và ${b} là: ${tinhtong_1(a, b)}`);
+console.log(`Tổng 2 số ${a} và ${b} là: ${tinhtong_2(a, b)}`);
