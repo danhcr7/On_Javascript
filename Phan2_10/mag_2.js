@@ -1,7 +1,4 @@
-let arr1 = [1, 2, 3, 4];
-// copy mảng:
-let arr2 = [...arr1];
-console.log(arr2);
-// Thêm phần tử vào mảng:
-arr1 = [...arr1, 5];
-console.log(arr1);
+let a1 = [1, 2, 3];
+let a2 = [4, 5, 6];
+let a3 = [...a1, ...a2];
+console.log(a3);
