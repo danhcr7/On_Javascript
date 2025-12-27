@@ -22,3 +22,11 @@ Viết arrow function nhận vào 1 số
 const kiemTraChanLe = n => (n%2 === 0) ? "Chẵn" : "Lẻ";
 console.log(kiemTraChanLe(5));
 console.log(kiemTraChanLe(8));
+/*
+Bài 3️⃣ – Kiểm tra tuổi
+Viết arrow function nhận vào age
+– Nếu age >= 18 → "Đủ tuổi"
+– Ngược lại → "Chưa đủ tuổi"
+*/
+const kiemTraTuoi = age => (age >= 18) ? "Đủ tuổi" : "Chưa đủ tuổi";
+console.log(kiemTraTuoi(17));
