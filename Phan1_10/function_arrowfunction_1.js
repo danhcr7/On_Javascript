@@ -55,4 +55,4 @@ Viết function nhận vào:
 → kết quả = 900
 */
 const giaSale = (price, discount) => price * (1-discount/100);
-console.log(giaSale(1000, 10));
+console.log(giaSale(1000, 20));
