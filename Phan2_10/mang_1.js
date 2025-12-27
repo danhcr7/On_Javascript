@@ -6,3 +6,7 @@ console.log(arr);
 // thêm phần tử [4, {1: "Nam", 2: "Danh"}] vào đầu arr
 arr.unshift([4, {1: "Nam", 2: "Danh"}]);
 console.log(arr);
+// pop: xóa cuối; shift: xóa đầu
+// xóa phần tử "hello" cuối mảng:
+arr.pop();
+console.log(arr);
