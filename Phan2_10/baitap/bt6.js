@@ -12,3 +12,6 @@ console.log(arr_1);
 // 👉 Tìm user có name === "Danh":
 let user_find = users.find(object => object["name"]==="Danh" && object);
 console.log(user_find);
+// Từ users: 👉 Tạo mảng mới, cập nhật tuổi "Danh" thành 22
+const users_copy_1 = [...users, { name: "Danh", age: 22 }];
+console.log(users_copy_1);
