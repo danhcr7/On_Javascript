@@ -13,5 +13,6 @@ console.log(arr_1);
 let user_find = users.find(object => object["name"]==="Danh" && object);
 console.log(user_find);
 // Từ users: 👉 Tạo mảng mới, cập nhật tuổi "Danh" thành 22
-const users_copy_1 = [...users, { name: "Danh", age: 22 }];
+const users_copy_1 = [...users];
+users_copy_1.map(obj => obj.name==="Danh" ? obj.age = 22 : obj.age = obj.age);
 console.log(users_copy_1);
