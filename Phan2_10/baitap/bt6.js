@@ -9,3 +9,6 @@ console.log(arr);
 // 👉 Lọc ra user có age >= 18
 const arr_1 = users.filter(object => object["age"]>=18 && object);
 console.log(arr_1);
+// 👉 Tìm user có name === "Danh":
+let user_find = users.find(object => object["name"]==="Danh" && object);
+console.log(user_find);
