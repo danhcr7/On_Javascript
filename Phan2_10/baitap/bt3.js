@@ -8,3 +8,4 @@ function check(item) {
     }
 }
 let arr1 = arr.filter(check(item));
+console.log(arr1);
