@@ -9,3 +9,6 @@ console.log(arr1);
 // dùng hàm find tìm số đầu tiên > 25
 let kq = arr.find(item => item>25 && item);
 console.log(kq);
+
+
+// Hàm filter thì trả về mảng, còn find trả về pt
