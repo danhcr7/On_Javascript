@@ -6,3 +6,6 @@ const users = [
 // 👉 Dùng map() tạo mảng mới chỉ chứa tên
 const arr = users.map(object => object["name"]);
 console.log(arr);
+// 👉 Lọc ra user có age >= 18
+const arr_1 = users.filter(object => object["age"]>=18 && object);
+console.log(arr_1);
