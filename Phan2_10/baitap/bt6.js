@@ -17,3 +17,5 @@ const users_copy_1 = [...users];
 users_copy_1.map(obj => obj.name==="Danh" && (obj.age = 22));
 console.log(users_copy_1);
 // Từ users: 👉 Tạo mảng mới loại bỏ user tên "An"
+const users_2 = users.map(object => (object.name !== "An") && (object));
+console.log(users_2);
